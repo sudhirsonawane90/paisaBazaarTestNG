@@ -5,7 +5,9 @@
     <classes>
       <class name="NewTest">
         <methods>
+          <include name="d"/>
           <include name="b"/>
+          <include name="c"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
         </methods>

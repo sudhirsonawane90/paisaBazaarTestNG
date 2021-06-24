@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-24T20:32:33 IST" name="Default suite" finished-at="2021-06-24T20:33:11 IST" duration-ms="38083">
+  <suite started-at="2021-06-24T21:03:39 IST" name="Default suite" finished-at="2021-06-24T21:04:03 IST" duration-ms="24564">
     <groups>
     </groups>
-    <test started-at="2021-06-24T20:32:33 IST" name="Default test" finished-at="2021-06-24T20:33:11 IST" duration-ms="38083">
+    <test started-at="2021-06-24T21:03:39 IST" name="Default test" finished-at="2021-06-24T21:04:03 IST" duration-ms="24564">
       <class name="NewTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:NewTest@64a8c844]" started-at="2021-06-24T20:32:33 IST" name="beforeClass" finished-at="2021-06-24T20:32:37 IST" duration-ms="3842" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:NewTest@3f390d63]" started-at="2021-06-24T21:03:39 IST" name="BeforeTest" finished-at="2021-06-24T21:03:39 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:NewTest@3f390d63]" started-at="2021-06-24T21:03:39 IST" name="beforeClass" finished-at="2021-06-24T21:03:43 IST" duration-ms="3602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="a()[pri:1, instance:NewTest@64a8c844]" started-at="2021-06-24T20:32:37 IST" name="a" description="Search PaisaBazaar on Google.co.in" finished-at="2021-06-24T20:32:40 IST" duration-ms="3251" status="PASS">
+        <test-method signature="a()[pri:1, instance:NewTest@3f390d63]" started-at="2021-06-24T21:03:43 IST" name="a" description="Search PaisaBazaar on Google.co.in" finished-at="2021-06-24T21:03:48 IST" duration-ms="5827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
-        <test-method signature="b()[pri:2, instance:NewTest@64a8c844]" started-at="2021-06-24T20:32:40 IST" name="b" description="Click on main link of PaisaBazaar" finished-at="2021-06-24T20:32:54 IST" duration-ms="13585" status="PASS">
+        <test-method signature="b()[pri:2, instance:NewTest@3f390d63]" started-at="2021-06-24T21:03:48 IST" name="b" description="Click on main link of PaisaBazaar" finished-at="2021-06-24T21:03:57 IST" duration-ms="8936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- b -->
-        <test-method signature="c()[pri:3, instance:NewTest@64a8c844]" started-at="2021-06-24T20:32:54 IST" name="c" description="Take a full page screenshot" finished-at="2021-06-24T20:33:09 IST" duration-ms="14981" status="PASS">
+        <test-method signature="d()[pri:4, instance:NewTest@3f390d63]" started-at="2021-06-24T21:03:57 IST" name="d" description="Scroll up and click on All Product &gt;&gt; Health Insurance" finished-at="2021-06-24T21:03:59 IST" duration-ms="1972" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- c -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:NewTest@64a8c844]" started-at="2021-06-24T20:33:09 IST" name="afterClass" finished-at="2021-06-24T20:33:11 IST" duration-ms="2339" status="PASS">
+        </test-method> <!-- d -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:NewTest@3f390d63]" started-at="2021-06-24T21:03:59 IST" name="afterClass" finished-at="2021-06-24T21:04:03 IST" duration-ms="4118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
